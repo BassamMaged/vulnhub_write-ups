@@ -55,5 +55,5 @@ link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ .
             <code> msf exploit(linux/samba/trans2open) > exploit </code> <br>
       -- [2] POC:
             <img src="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/pics/samba_overflow.png"/>
-      <pre>we are do the best to keep it up-to-date and adding more vulnerabilities if we found it at this machine.
+      <pre>we are do the best to keep it up-to-date and adding more vulnerabilties if we found any of them at this machine.
       Best wishes,,</pre>
