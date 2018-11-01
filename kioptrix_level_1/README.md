@@ -19,13 +19,13 @@ link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ .
   [+] Now, we can performing vulnerability assessment through doing search about vulnerabilities that can be found according to protocols versions.  <br>
     that depend on your search skill :D. <br>
     i found some vulneravilities:- <br>
-    1) buffer-over Apache mod_ssl < 2.8.7 OpenSSL <br>
-     a) download openfuck script from: <br>
+    -- [1] buffer-over Apache mod_ssl < 2.8.7 OpenSSL <br>
+    -- [1] download openfuck script from: <br>
      <a href="https://www.exploit-db.com/exploits/764/">exploit</a> <br>
-     b) or here: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/openfuck.c"> Github </a> <br>
-     c) or modified script: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/openfuck_modified.c ">Modifeid script:Github</a><br>
-     d) you can download the exploit script to using it.<br>
-     e) command: <code>./OpenFuck 0x6b 192.168.1.106</code> <br>
+     -- [1] or here: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/openfuck.c"> Github </a> <br>
+     -- [1] or modified script: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/openfuck_modified.c ">Modifeid script:Github</a><br>
+     -- [1] you can download the exploit script to using it.<br>
+     -- [1] command: <code>./OpenFuck 0x6b 192.168.1.106</code> <br>
      <pre>
      -- [1] note: if any problem occur during running of the script, you will find some solution here. <br>
      -- [1] link: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/install_openfuck.md "> follow this instructions</a> <br>
