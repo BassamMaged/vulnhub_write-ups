@@ -11,7 +11,7 @@ link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ .
    <img src="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/pics/ping_sweep.png"/>
    <br><br>
    
-  [+] After finding target IP, we need to perform port scan and banner graabbing over TCP through nmap. <br>
+  [+] After finding target IP, we need to perform port scan and banner grabbing over TCP through nmap. <br>
     command: <code>sudo nmap -sS -sV -O 192.168.1.104 -p-</code> <br><br>
     <img src="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/pics/nmap_portscan_banner_grabbing.png"/>
     <br><br>
@@ -20,7 +20,7 @@ link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ .
     that depend on your search skill :D. <br>
     i found some vulneravilities:- <br>
     -- [1] buffer-over Apache mod_ssl < 2.8.7 OpenSSL <br>
-    -- [1] download openfuck script from: <br>
+    -- [1] download openfuck script from: 
      <a href="https://www.exploit-db.com/exploits/764/">exploit</a> <br>
      -- [1] or here: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/openfuck.c"> Github </a> <br>
      -- [1] or modified script: <a href="https://github.com/BassamMaged/vulnhub_write-ups/blob/master/kioptrix_level_1/additional_content/openfuck_modified.c ">Modifeid script:Github</a><br>
