@@ -26,4 +26,4 @@
   6) Install libssl-dev (if not already installed): <br>
     <code>apt-get install libssl-dev</code>
   7) Compile!
-    <code> gcc -o OpenFuck 764.c -lcrypto </code>
+    <code> gcc -o OpenFuck openfuck.c -lcrypto </code>
