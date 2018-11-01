@@ -21,9 +21,9 @@
   4) Replace the if on (now) line 1078 with:
   if (EVP_PKEY_get1_RSA(pkey) == NULL) {
 
-  5) Replace the encrypted_key_length code on (now) line 1084 with:
+  5) Replace the encrypted_key_length code on (now) line 1084 with: ,br>
     <code>encrypted_key_length = RSA_public_encrypt(RC4_KEY_LENGTH, ssl->master_key, &buf[10], EVP_PKEY_get1_RSA(pkey), RSA_PKCS1_PADDING);</code>
-  6) Install libssl-dev (if not already installed):
+  6) Install libssl-dev (if not already installed): <br>
     <code>apt-get install libssl-dev</code>
   7) Compile!
     <code> gcc -o OpenFuck 764.c -lcrypto </code>
