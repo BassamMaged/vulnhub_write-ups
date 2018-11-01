@@ -7,7 +7,7 @@ link: https://www.vulnhub.com/entry/kioptrix-level-1-1,22/ .
 # Solution:
   1-At the beginning, we need to perform ping sweep to discover network devices that alive.
     command: sudo nmap -sn 192.168.1.0/24
-   
+   https://github.com/BassamMaged/vulnhub_write-ups/blob/master/Kazam_screenshot_00000.png
    
   2- after finding target IP, we need to perform port scan and banner graabbing over TCP through nmap.
     command: sudo nmap -sS -sV -O 192.168.1.104 -p-
